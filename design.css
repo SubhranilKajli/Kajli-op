@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    /* padding:0px; */
+    box-sizing: border-box;
+    font-family: 'DM Mono';
+    color: whitesmoke;
+    /* border:1px solid yellow; */
+}
+
+body {
+    background: rgb(17, 16, 16);
+}
+
+.subhpic {
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+section {
+    width: 80vw;
+    margin: 30px auto;
+    padding: 20px 0px 0px 0px;
+    border-top: 1px solid blue;
+    /* box-shadow: 5px -10px 10px 0px blue; */
+}
+
+.prime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 20px;
+}
+
+.prime ul li {
+    padding: 10px;
+    display: inline;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
